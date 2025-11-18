@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Scary Halloween Font';
+    src: url('ScaryHalloweenFont-Bold.eot');
+    src: url('ScaryHalloweenFont-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ScaryHalloweenFont-Bold.woff2') format('woff2'),
+        url('ScaryHalloweenFont-Bold.woff') format('woff'),
+        url('ScaryHalloweenFont-Bold.ttf') format('truetype'),
+        url('ScaryHalloweenFont-Bold.svg#ScaryHalloweenFont-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: chuky;
+    src: url('DearScript.eot');
+    src: url('DearScript.eot?#iefix') format('embedded-opentype'),
+        url('DearScript.woff2') format('woff2'),
+        url('DearScript.woff') format('woff'),
+        url('DearScript.ttf') format('truetype'),
+        url('DearScript.svg#DearScript') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

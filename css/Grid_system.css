@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+/* canh 1 khu vực tên container 90% vào giữa màn hình body */
+*{box-sizing: border-box} /* vien/ padding vào trong dien tích của box hiện hành*/
+.container
+{
+	width: 100%;
+	margin: 0; 
+}
+.row /* tạo 1 hàng với chế độ hiển thị linh hoạt*/
+{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center
+}
+/* bắt đầu hệ thống lưới 12 cột -- 100% chia cho 12 phần*/
+.col-1{	width: 8.33%}
+.col-2{	width: 16.66%}
+.col-3{	width: 25%}
+.col-4{	width: 33.33%}
+.col-5{	width: 41.66%}
+.col-6{	width: 50%}
+.col-7{	width: 58.33%}
+.col-8{	width: 66.66%}
+.col-9{	width: 75%}
+.col-10{width: 83.33%}
+.col-11{width: 91.66%}
+.col-12{width: 100%}
+[class*="col-"]
+{
+	border: 1px solid red;
+	padding: 15px
+}
+.img-100{ width: 100%; height: auto}
+
+.bg-xam{ background: #ddd}
+
+.text-center{ text-align: center}
+.text-right{text-align: right}
+.text-left{ text-align: left}
+.text-justify{ text-align: justify}
+
+
+

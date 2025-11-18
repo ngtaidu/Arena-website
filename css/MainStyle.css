@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("Grid_system.css");
+@import url("all.css");
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Fleur+De+Leah&display=swap');
+
+/*.f-bricolage-grotesque {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;  
+  font-style: normal;
+}*/
+.f-fleur-de-leah-regular {
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 400;
+  font-style: normal;	font-size: 1.5rem
+
+}
+.font-kyten
+{
+	font-family: chuky;
+}
+html, body
+{
+	width: 100%;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header-wrapper
+{
+	width: 100%;
+	max-width: 100%;
+	background-color: #ffe600;
+	padding: 6px 0;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+	margin-bottom: 6px;
+}
+
+.header-wrapper .container
+{
+	width: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0 15px;
+}
+
+.header-wrapper .col-2
+{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.header-wrapper img
+{
+	max-width: 120px;
+	height: auto;
+	display: block;
+	margin-left: 15px;
+}
+
+body
+{
+/*	background-color:#E1E1E1;*/
+	color: #2F2E2E;
+	font-family: "Bricolage Grotesque",Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	
+}
+h1,h2,h3,h4,.menu
+{
+	
+	display: block;
+	color: #333
+}
+.font-ma{font-family: 'Scary Halloween Font'}
+.menu ul
+{
+	margin: 0;
+	padding: 0; 
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+.menu ul li
+{
+	display: inline-block ;/* day cac list len canh nhau chung 1 hang*/
+	position: relative/* cho dt con dung dien tich cua minh de dinh vi tri*/
+}
+.menu ul li a
+{
+	padding: 6px 12px;
+	color:black;
+	display: block;
+	text-decoration:none;
+	font-size: 16px;
+	font-weight: bold;
+}
+.menu ul li a i
+{
+	margin-right: 8px;
+}
+.menu ul li:has(> ul) > a::after
+{
+	content: '\f107';
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	margin-left: 8px;
+	font-size: 14px;
+	display: inline-block;
+}
+.menu ul li a:hover{
+	color: #333;
+}
+.menu ul ul
+{
+	position: absolute;
+	left: 0; top: 100%;
+	background-color:#FFCE00;
+	width: 200px;
+	display: none
+}
+.menu ul ul li
+{
+	display: block;
+	border-bottom: 1px solid #391919
+	
+}
+
+.menu ul li:hover> ul
+{
+	display: block
+}
+.menu
+{ 
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 100%;
+}
+
+.menu .ss
+{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-left: 15px;
+}
+
+h1
+{
+	background: #121FCF;
+background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
